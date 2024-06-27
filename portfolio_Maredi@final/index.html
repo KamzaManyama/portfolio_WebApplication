@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
+  <title>Maredi Manyama</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Maredi Speel Manyama</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Maredi Manyama</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/project.png" alt="Maredi speel Manyama profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello,</p>
+      <h1 class="title">Welcome to my portfolio website!</h1>
+      <p class="section__text__p2">"I'm <b>Maredi Speel Manyama</b>,
+         a recent university graduate with a passion for Computer Sciences and a drive to learn and grow.
+        As I take my first steps into the professional world, I'm excited to explore opportunities for internships
+         and entry-level positions that will help me build on my skills and experience. This portfolio showcases my academic projects,
+          achievements, and interests, and I'm eager to share my talents with a dynamic team. Let's connect and explore how I can contribute to your organization's success!
+          and you can download my CarriculamViatae below"
+        
+        </p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/CarriculamViataeOfMarediSpeelManyamaa.pdf')">
+          Download CV
+        </button>
+        
+      </div>
+     
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+     
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>Basic experience in java programming through school projects and assignments </p>
+            <p>kotlin programming  </p>
+            <p>web development programming working with TVH </p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>National senoir certificate </p>
+            <p>Diploma in Computer Sciences </p>
+
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Hi my name is <b>Maredi Speel Manyama</b> a  recent student at tshwane university of technology, 
+Im a very passionate person when it come to the world of software development as i have ventured in 
+<b>html</b>,<b>css</b>  and <b>javascript</b> for the likeness of knowing how front-end applications are designed 
+and developed the i also looked at the backEnd part of the web development by familiarising my self with <b>java programmingt</b>, <b>mySql databases</b> to see 
+how data is stored and manipulated behind the scenes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>BootStrap</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+           
+            
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+           
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>mySQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>java </h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Weather application</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">iacademy</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/pxfuel.jpg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">ElectronichealthApp</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/spazashop.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">mamazala spaza</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="kmanyama009@gmail.com">kmanyama009@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" 
+        onclick="location.href='https://github.com/KamzaManyama'"/>
+        <p><a href="">LinkedIn</a></p>
+      </div>
+
+      <div class="contact-info-container">
+          <img src="./assets/github.png" alt="My Github profile" class="icon"
+            onclick="location.href='https://github.com/KamzaManyama'" />
+            <p><a href="">Github</a></p>
+      </div>
+
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        
+      </div>
+    </nav>
+
+    <div class="footer-area">
+      <div class="footer-copyright-text">
+         <p> 
+          Copyright © 2024  Manyama Maredi Speel All Rights Reserved. </p> 
+      </div>
+  </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
